@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.principal {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contenedor-calculadora {
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 2.5rem;
+    box-shadow: 1px 1px 15px 5px rgb(255, 255, 255, 8%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contenedor-calculadora::after {
+    content: '';
+    position: absolute;
+    width: 900px;
+    height: 70px;
+    background-image: linear-gradient(transparent, #b100ff, #8a4aff, #00d0ff, transparent);
+    animation: rotar 5s linear infinite;
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calculadora {
+    background-color: black;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.titulo {
+    font-size: 3.5rem;
+    color: cyan;
+    text-shadow: 2px 2px 20px rgba(247, 98, 255, 0.5);
+}
+
+.titulo::selection {
+    background-color: violet;
+}
+
+.tzzent {
+    text-decoration: none;
+    color: cyan;
+    transition: .3s;
+}
+
+.tzzent:hover {
+    color: pink;
+
 }

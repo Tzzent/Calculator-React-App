@@ -1,0 +1,19 @@
+.boton-clear {
+    padding: 15px;
+    background-color: #7a005c;
+    outline: 2px solid white;
+    border-style: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    grid-column: 1/ span 4;
+    margin: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.boton-clear:hover {
+    background-color: crimson;
+    transform: scale(1.1);
+}

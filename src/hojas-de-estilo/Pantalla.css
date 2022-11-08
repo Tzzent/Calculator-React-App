@@ -1,0 +1,13 @@
+.input {
+    grid-column: 1 / span 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    height: 80px;
+    margin: 8px;
+    border-bottom: 5px solid rgb(255, 255, 255, 70%);
+    user-select: none;
+}
