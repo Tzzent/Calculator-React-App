@@ -16,7 +16,7 @@
 <br>
 🖥️ Desktop<br>
 
-![sd](https://user-images.githubusercontent.com/86677547/200701171-473ab4e1-0810-471a-9cb7-1133bdd6a414.png)
+![Calculator-Website](https://user-images.githubusercontent.com/86677547/200701171-473ab4e1-0810-471a-9cb7-1133bdd6a414.png)
 
 <br>
 <br>
