@@ -15,8 +15,7 @@
 ## Overview
 <br>
 🖥️ Desktop<br>
-
-![Calculator-Website](https://user-images.githubusercontent.com/86677547/200701171-473ab4e1-0810-471a-9cb7-1133bdd6a414.png)
+![TaskApp-Website](https://user-images.githubusercontent.com/86677547/201494885-8fa38255-5ebc-4741-9553-2a26a54ef90c.png)
 
 <br>
 <br>
